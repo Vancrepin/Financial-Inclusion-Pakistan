@@ -22,16 +22,25 @@ World Bank	micro_pak.csv	Global Findex (Individual-level)
 Global Findex (micro_pak.csv)
 
 Kept variables related to account ownership, digital payments, gender, urban/rural, mobile access, income quintile
+
 Binary Labeling	Transformed 1/0 values into "Yes" / "No", "Female" / "Male", "Urban" / "Rural" for readability
+
 Column Renaming	Renamed for clarity: account_mob → mobile_account, anydigpayment → digital_payment, etc.
+
 Missing Values	Rows with >20% null values dropped
+
 Export	Final file: findex_final.csv
 
 Enterprise Survey (Pakistan-2022-full-data.dta)
+
 Selected key variables: firm size, sector, infrastructure (electricity/internet), trade (exports/imports), credit access
+
 Variable Mapping	a4a → sector, a6a → firm_size, b4 → female_ownership, c3/c6 → electricity access
+
 Renaming & Transformation	Standardized binary values to Yes/No; converted percentage strings to numeric
+
 Calculated Fields	Added new variable: total_export_pct = direct_export + indirect_export
+
 Export	Final file: firm_final.csv
 
 📈 Power BI Dashboard
@@ -70,27 +79,44 @@ Narrative Box with key findings
 Key Findings – Individuals
 
 Rural respondents lead in account ownership and digital payment usage
+
 Women are significantly less likely to hold financial/mobile accounts
+
 Digital finance remains limited (only 19% made digital payments)
+
 Income affects saving behavior; borrowing is more erratic
+
 Mobile phone ownership is 69%, limiting digital reach
 
 Key insights - individuals
+
 Encourage usage, not just access.
+
 Tailor financial products for women.
+
 Expand rural digital finance infrastructure.
+
 Boost financial education to reduce informal/debt risks.
 
 Key Findings – Firms
+
 Retail firms dominate by count; manufacturing leads in trade
+
 Punjab leads in internet disruptions, Khyber in electricity outages
+
 Large firms face higher credit access obstacles
+
 Female-led firms apply less for credit and receive less full funding
 
 Key insights - Firms
+
 Tailor export support and import substitution policies to manufacturing firms.
+
  Prioritize infrastructure investment in Punjab (internet) and Khyber (electricity).
+ 
  Provide risk-mitigation tools for firms exposed to global trade.
+ 
  Streamline credit processes for large firms facing administrative delays.
+ 
 Promote financial inclusion for women-led firms with better access, trust, and loan design.
 
